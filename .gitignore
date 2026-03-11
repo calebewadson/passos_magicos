@@ -57,12 +57,12 @@ app/model/*.joblib
 app/model/*.pkl
 app/model/*.pickle
 
-# Data files
-data/raw/
-data/*.xlsx
-data/*.xls
-data/*.csv
-data/*.parquet
+# # Data files
+# data/raw/
+# data/*.xlsx
+# data/*.xls
+# data/*.csv
+# data/*.parquet
 
 # Notebook outputs
 notebooks/.ipynb_checkpoints/
