@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type check / lint caches
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+artifacts/logs/
+
+# Runtime artifacts
+artifacts/predictions.jsonl
+artifacts/metrics/*.json
+artifacts/reports/*.png
+artifacts/reports/*.csv
+artifacts/drift/*.csv
+artifacts/drift/*.json
+artifacts/drift/*.html
+
+# Model artifacts
+app/model/*.joblib
+app/model/*.pkl
+app/model/*.pickle
+
+# Data files
+data/raw/
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.parquet
+
+# Notebook outputs
+notebooks/.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+
+# Local SQLite / misc local state
+*.sqlite
+*.db
+
+# Docker overrides
+docker-compose.override.yml

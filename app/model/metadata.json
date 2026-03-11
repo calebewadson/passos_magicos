@@ -1,0 +1,229 @@
+{
+  "model_version": "1.0.0",
+  "best_model_name": "random_forest",
+  "best_metrics_holdout": {
+    "recall_risco": 0.8214285714285714,
+    "precision_risco": 0.5348837209302325,
+    "f1_risco": 0.647887323943662,
+    "roc_auc": 0.7674628435022307,
+    "pr_auc": 0.6888816658464116,
+    "confusion_matrix": [
+      [
+        237,
+        220
+      ],
+      [
+        55,
+        253
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8116438356164384,
+        "recall": 0.5185995623632386,
+        "f1-score": 0.6328437917222964,
+        "support": 457.0
+      },
+      "1": {
+        "precision": 0.5348837209302325,
+        "recall": 0.8214285714285714,
+        "f1-score": 0.647887323943662,
+        "support": 308.0
+      },
+      "accuracy": 0.6405228758169934,
+      "macro avg": {
+        "precision": 0.6732637782733355,
+        "recall": 0.6700140668959049,
+        "f1-score": 0.6403655578329792,
+        "support": 765.0
+      },
+      "weighted avg": {
+        "precision": 0.7002162338865672,
+        "recall": 0.6405228758169934,
+        "f1-score": 0.6389005341068462,
+        "support": 765.0
+      }
+    }
+  },
+  "all_model_metrics_holdout": {
+    "logistic_regression": {
+      "recall_risco": 0.41883116883116883,
+      "precision_risco": 0.48134328358208955,
+      "f1_risco": 0.4479166666666667,
+      "roc_auc": 0.6119597033163773,
+      "pr_auc": 0.43495710406571164,
+      "confusion_matrix": [
+        [
+          318,
+          139
+        ],
+        [
+          179,
+          129
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.6398390342052314,
+          "recall": 0.6958424507658644,
+          "f1-score": 0.6666666666666666,
+          "support": 457.0
+        },
+        "1": {
+          "precision": 0.48134328358208955,
+          "recall": 0.41883116883116883,
+          "f1-score": 0.4479166666666667,
+          "support": 308.0
+        },
+        "accuracy": 0.5843137254901961,
+        "macro avg": {
+          "precision": 0.5605911588936605,
+          "recall": 0.5573368097985166,
+          "f1-score": 0.5572916666666666,
+          "support": 765.0
+        },
+        "weighted avg": {
+          "precision": 0.5760263659804893,
+          "recall": 0.5843137254901961,
+          "f1-score": 0.5785947712418301,
+          "support": 765.0
+        }
+      }
+    },
+    "random_forest": {
+      "recall_risco": 0.8214285714285714,
+      "precision_risco": 0.5348837209302325,
+      "f1_risco": 0.647887323943662,
+      "roc_auc": 0.7674628435022307,
+      "pr_auc": 0.6888816658464116,
+      "confusion_matrix": [
+        [
+          237,
+          220
+        ],
+        [
+          55,
+          253
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.8116438356164384,
+          "recall": 0.5185995623632386,
+          "f1-score": 0.6328437917222964,
+          "support": 457.0
+        },
+        "1": {
+          "precision": 0.5348837209302325,
+          "recall": 0.8214285714285714,
+          "f1-score": 0.647887323943662,
+          "support": 308.0
+        },
+        "accuracy": 0.6405228758169934,
+        "macro avg": {
+          "precision": 0.6732637782733355,
+          "recall": 0.6700140668959049,
+          "f1-score": 0.6403655578329792,
+          "support": 765.0
+        },
+        "weighted avg": {
+          "precision": 0.7002162338865672,
+          "recall": 0.6405228758169934,
+          "f1-score": 0.6389005341068462,
+          "support": 765.0
+        }
+      }
+    },
+    "gradient_boosting": {
+      "recall_risco": 0.7305194805194806,
+      "precision_risco": 0.5269320843091335,
+      "f1_risco": 0.6122448979591837,
+      "roc_auc": 0.7064814288556084,
+      "pr_auc": 0.6242432565477805,
+      "confusion_matrix": [
+        [
+          255,
+          202
+        ],
+        [
+          83,
+          225
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.7544378698224852,
+          "recall": 0.5579868708971554,
+          "f1-score": 0.6415094339622641,
+          "support": 457.0
+        },
+        "1": {
+          "precision": 0.5269320843091335,
+          "recall": 0.7305194805194806,
+          "f1-score": 0.6122448979591837,
+          "support": 308.0
+        },
+        "accuracy": 0.6274509803921569,
+        "macro avg": {
+          "precision": 0.6406849770658094,
+          "recall": 0.644253175708318,
+          "f1-score": 0.626877165960724,
+          "support": 765.0
+        },
+        "weighted avg": {
+          "precision": 0.6628407692497893,
+          "recall": 0.6274509803921569,
+          "f1-score": 0.6297271109701743,
+          "support": 765.0
+        }
+      }
+    }
+  },
+  "feature_columns": [
+    "ano_referencia",
+    "fase",
+    "turma",
+    "idade",
+    "genero",
+    "ano_ingresso",
+    "instituicao_ensino",
+    "pedra_2020",
+    "pedra_2021",
+    "pedra_2022",
+    "pedra_2023_historico",
+    "pedra_atual",
+    "inde_2022_historico",
+    "inde_2023_historico",
+    "inde_atual",
+    "cg",
+    "cf",
+    "ct",
+    "num_avaliacoes",
+    "iaa",
+    "ieg",
+    "ips",
+    "ipp",
+    "ida",
+    "matematica",
+    "portugues",
+    "ingles",
+    "indicado",
+    "atingiu_pv",
+    "ipv",
+    "ian",
+    "fase_ideal",
+    "rec_psicologia",
+    "status_matricula"
+  ],
+  "train_window_years": [
+    2022,
+    2023
+  ],
+  "validation_window_years": [
+    2023,
+    2024
+  ],
+  "target_definition": "1 quando a defasagem do ano seguinte é negativa; 0 caso contrário.",
+  "target_column_source": "Defas (2022) / Defasagem (2023, 2024), sempre deslocada para o próximo ano.",
+  "n_labeled_rows": 1365
+}

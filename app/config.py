@@ -1,0 +1,1 @@
+from src.settings import METADATA_PATH, MODEL_PATH, PREDICTIONS_LOG_PATH
